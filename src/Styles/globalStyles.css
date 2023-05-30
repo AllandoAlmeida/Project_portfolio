@@ -1,0 +1,36 @@
+:root {
+  --color-primary: #6880FF;
+  --color-primary-Hover: #7C91FF;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+
+  --font-size-1: 3rem;
+  --font-size-2: 2.625rem;
+  --font-size-3: 2.5rem;
+  --font-size-4: 2.25rem;
+  --font-size-5: 1.375rem;
+  --font-size-6: .875rem;
+  --font-size-7: 1rem;
+
+  --font-weight-1: bold;
+  --font-weight-2: regular;
+
+  --bg-color: linear-gradient(120deg, #2c0638 8%, #2e279d 106%);
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  /* background-color: #000000; */
+  background: var(--bg-color);
+  color: white;
+  align-items: center;
+  padding: 0 25px 0 25px;
+
+}
+
+li {
+  list-style-type: none;
+}

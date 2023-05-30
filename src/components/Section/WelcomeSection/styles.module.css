@@ -1,0 +1,55 @@
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3.93rem auto 0 auto;
+    padding: 0 auto;
+}
+
+.sectionWelcomeTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: clamp(21.875rem, 40%, 37.5rem);
+    list-style-type: none;
+    height: max-content;
+
+}
+
+.profile{
+    width: 52px;
+    border-radius: 15%;
+    border: 2px solid hwb(231 9% 23% / 0.452);
+
+}
+
+.sectionPerfil {
+    color: var(--color-primary);
+    display: flex;
+    gap: .9375rem;
+    align-items: flex-end;
+    font-weight: bold ;
+
+}
+.paragraph{
+    font-size: var(--font-weight-7);
+    font-weight: var(--font-weight-2);
+    text-align: justify;
+    line-height: 1.7;
+  }
+
+.label {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+}
+@media (max-width: 37.5rem) {
+    .container {
+        gap: 1.75rem;
+        padding: 0;
+        margin-top: 3.75rem;
+    }
+}

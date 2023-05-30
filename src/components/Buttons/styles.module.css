@@ -1,0 +1,77 @@
+button{
+  cursor: pointer;
+}
+
+
+a{
+  color: var(--color-primary);
+}
+
+.BtnContact {
+  box-sizing: border-box;
+  border: none;
+  height: 45px;
+  width: 130px;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-radius: 12px;
+}
+
+.linkNav {
+  border: 1px solid var(--bg-color);
+  background-color: var(--bg-color);
+  color: var(--color-white);
+  width: 60px;
+  height: 45px;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.knowMore {
+  height: 45px;
+  width: 130px;
+  border-radius: 12px;
+  border: var(--color-primary);
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
+
+a:hover{
+  color: var(--color-primary-Hover);
+}
+
+
+.BtnContact:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary-Hover);
+  border: 2px solid var(--color-primary);
+}
+
+.linkNav:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary-Hover);
+  border: 2px solid var(--color-primary);
+}
+
+.knowMore:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary-Hover);
+  border: 2px solid var(--color-primary);
+}
+
+.items {
+  display: flex;
+  gap: 60px;
+}
+
+@media (max-width: 600px) {
+  .items {
+    display: flex;
+    width: clamp(300px, 100%, 900px);
+    justify-content: center;
+  }
+}
+
+
+
+
