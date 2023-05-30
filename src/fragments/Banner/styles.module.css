@@ -1,0 +1,3 @@
+.banner{
+    width: clamp(19.375rem, 35vw, 25rem);
+}

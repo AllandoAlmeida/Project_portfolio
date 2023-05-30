@@ -23,7 +23,6 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  /* background-color: #000000; */
   background: var(--bg-color);
   color: white;
   align-items: center;

@@ -3,7 +3,7 @@
     width: 17.9375rem;
     height: 5.375rem;
     border: .0625rem solid rgba(255, 255, 255, 0.5);
-    border-radius: 25px;
+    border-radius: .75rem;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -15,7 +15,10 @@
 .card>img {
     width: 2rem;
 }
-
+.card:hover{
+    border: 1px solid var(--bg-color);
+    box-shadow: rgb(130, 130, 130) .3125rem .625rem 1.25rem -0.3125rem;
+}
 @media (max-width: 37.5rem) {
     .card {
         width: 21.875rem;
