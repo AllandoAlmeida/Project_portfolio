@@ -48,3 +48,13 @@
     max-height: 1.875rem;
     color: var(--color-white);
 }
+
+.projectName{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    line-clamp: 1;
+    box-orient: vertical;
+}

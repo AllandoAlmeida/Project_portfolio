@@ -5,7 +5,7 @@ export const ProjectCard = ({ project }) => {
     return (
         <ul id={styles.card} >
             <li className={styles.container}>
-                <h1 className="title3">{project.name}</h1>
+                <h1 className="title3 projectName">{project.name}</h1>
                 <img src={gitHub} alt="logo do GitHub" id={styles.IconGitHub} />
             </li>
             <li className={styles.paragrafh}>{project.description}
